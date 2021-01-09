@@ -1,0 +1,26 @@
+﻿<Window x:Class="AplikasiSepatu.UI.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplikasiSepatu.UI"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="450">
+    <Grid Background="#FFFFF3F3" Height="434" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="367*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="Pesan" Margin="0,0,287,344" Stretch="Fill" Source="/Assets/inbox.JPG" Height="39" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="45" Grid.RowSpan="2" MouseLeftButtonDown="OnPesanClick"/>
+        <Image Margin="26,0,0,14" Stretch="Fill" Source="/Assets/Menu.JPG" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="31"/>
+        <Image x:Name="Pesanan" Margin="72,0,253,159" Stretch="Fill" Source="/Assets/sepatu.JPG" Height="179" VerticalAlignment="Bottom" Grid.Row="1" MouseLeftButtonDown="OnClickPemesanan"/>
+        <Image Margin="0,20,30,0" Stretch="Fill" Source="/Assets/profil.JPG" Height="55" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Right" Width="59"/>
+        <Image Margin="128,254,104,0" Stretch="Fill" Source="/Assets/Sepatu1.JPG" Grid.Row="1" Height="100" VerticalAlignment="Top"/>
+        <Image Margin="270,0,51,158" Stretch="Fill" Source="/Assets/centang.JPG" Height="184" VerticalAlignment="Bottom" Grid.Row="1" MouseLeftButtonDown="OnRiwatClicked"/>
+        <Image Margin="68,0,0,344" Stretch="Fill" Source="/Assets/telepon.JPG" Height="41" VerticalAlignment="Bottom" Grid.RowSpan="2" HorizontalAlignment="Left" Width="38"/>
+        <Label Content="      Welcome&#xD;&#xA;              User" HorizontalAlignment="Right" Margin="0,0,91,361" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label Content="Pemesanan" HorizontalAlignment="Left" Margin="88,0,0,134" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold"/>
+        <Label Content="Riwayat Pemesanan" Margin="273,0,55,131" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold" RenderTransformOrigin="0.389,0.554"/>
+
+    </Grid>
+</Window>

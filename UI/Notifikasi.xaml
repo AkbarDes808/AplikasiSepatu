@@ -1,0 +1,15 @@
+﻿<Window x:Class="AplikasiSepatu.UI.Notifikasi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplikasiSepatu.UI"
+        mc:Ignorable="d"
+         Title="Pesan" Height="450" Width="450">
+    <Grid>
+        <Image x:Name="Back" Margin="0,-1,1,349" Stretch="Fill" Source="/Assets/kotak masuk.JPG" MouseLeftButtonDown="OnBackClick" HorizontalAlignment="Right" Width="449"/>
+        <Image x:Name="Notif" Margin="0,0,0,311" Stretch="Fill" Source="/Assets/pesan1.JPG" HorizontalAlignment="Center" Width="452" Height="40" VerticalAlignment="Bottom" MouseLeftButtonDown="OnClickButton" />
+        <Image Margin="-2,121,0,0" Stretch="Fill" Source="/Assets/Notifikasi1.JPG" Height="410" VerticalAlignment="Top" HorizontalAlignment="Left" Width="455"/>
+
+    </Grid>
+</Window>
