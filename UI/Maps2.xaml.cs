@@ -24,14 +24,14 @@ namespace AplikasiSepatu.UI
 
         private void OnClickMap(object sender, MouseButtonEventArgs e)
         {
-            Maps1 map = new Maps1();
+            Pemesanan map = new Pemesanan();
             map.Show();
             this.Close();
         }
 
         private void OnClickBack(object sender, MouseButtonEventArgs e)
         {
-            Home home = new Home();
+            Maps1 home = new Maps1();
             home.Show();
             this.Close();
         }

@@ -31,7 +31,7 @@ namespace AplikasiSepatu.UI
 
         private void OnClickPemesanan(object sender, MouseButtonEventArgs e)
         {
-            Maps2 map = new Maps2();
+            Pemesanan map = new Pemesanan();
             map.Show();
             this.Close();
         }
@@ -40,6 +40,13 @@ namespace AplikasiSepatu.UI
         {
             Riwayat riwayat = new Riwayat();
             riwayat.Show();
+            this.Close();
+        }
+
+        private void OnClickLogout(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
             this.Close();
         }
     }

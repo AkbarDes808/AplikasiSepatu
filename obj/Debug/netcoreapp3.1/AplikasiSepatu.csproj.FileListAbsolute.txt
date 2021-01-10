@@ -36,6 +36,5 @@ E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps1.g.cs
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps2.g.cs
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps1.baml
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps2.baml
-E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\AplikasiSepatu.csprojAssemblyReference.cache
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Riwayat.g.cs
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Riwayat.baml

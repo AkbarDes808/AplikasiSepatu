@@ -12,15 +12,15 @@
             <RowDefinition Height="367*"/>
         </Grid.RowDefinitions>
         <Image x:Name="Pesan" Margin="0,0,287,344" Stretch="Fill" Source="/Assets/inbox.JPG" Height="39" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="45" Grid.RowSpan="2" MouseLeftButtonDown="OnPesanClick"/>
-        <Image Margin="26,0,0,14" Stretch="Fill" Source="/Assets/Menu.JPG" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="31"/>
         <Image x:Name="Pesanan" Margin="72,0,253,159" Stretch="Fill" Source="/Assets/sepatu.JPG" Height="179" VerticalAlignment="Bottom" Grid.Row="1" MouseLeftButtonDown="OnClickPemesanan"/>
         <Image Margin="0,20,30,0" Stretch="Fill" Source="/Assets/profil.JPG" Height="55" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Right" Width="59"/>
         <Image Margin="128,254,104,0" Stretch="Fill" Source="/Assets/Sepatu1.JPG" Grid.Row="1" Height="100" VerticalAlignment="Top"/>
         <Image Margin="270,0,51,158" Stretch="Fill" Source="/Assets/centang.JPG" Height="184" VerticalAlignment="Bottom" Grid.Row="1" MouseLeftButtonDown="OnRiwatClicked"/>
-        <Image Margin="68,0,0,344" Stretch="Fill" Source="/Assets/telepon.JPG" Height="41" VerticalAlignment="Bottom" Grid.RowSpan="2" HorizontalAlignment="Left" Width="38"/>
-        <Label Content="      Welcome&#xD;&#xA;              User" HorizontalAlignment="Right" Margin="0,0,91,361" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label Content="      Welcome" HorizontalAlignment="Right" Margin="0,0,92,18" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold"/>
         <Label Content="Pemesanan" HorizontalAlignment="Left" Margin="88,0,0,134" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold"/>
         <Label Content="Riwayat Pemesanan" Margin="273,0,55,131" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold" RenderTransformOrigin="0.389,0.554"/>
+        <Label x:Name="Nama" Content="" HorizontalAlignment="Right" Margin="0,0,95,360" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold" Grid.RowSpan="2" Width="82"/>
+        <Button x:Name="Logout" Content="Logout" HorizontalAlignment="Left" Margin="61,20,0,0" VerticalAlignment="Top" Click="OnClickLogout"/>
 
     </Grid>
 </Window>

@@ -28,5 +28,12 @@ namespace AplikasiSepatu.UI
             window.Show();
             this.Close();
         }
+
+        private string Nama_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var data = Convert.ToInt32(Nama.Text);
+            var tampil = data;
+            return Convert.ToString(data);
+        }
     }
 }
