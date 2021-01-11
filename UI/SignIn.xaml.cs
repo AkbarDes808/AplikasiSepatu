@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
 
 namespace AplikasiSepatu.UI
 {
@@ -20,6 +21,7 @@ namespace AplikasiSepatu.UI
         public SignIn()
         {
             InitializeComponent();
+
         }
 
         private void OnSignInClick(object sender, RoutedEventArgs e)

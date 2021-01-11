@@ -38,3 +38,11 @@ E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps1.baml
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Maps2.baml
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Riwayat.g.cs
 E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\UI\Riwayat.baml
+E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\AplikasiSepatu.csprojAssemblyReference.cache
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Kampus\Program\AplikasiSepatu\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Kampus\Program\AplikasiSepatu\obj\Debug\netcoreapp3.1\AplikasiSepatu.csproj.CopyComplete

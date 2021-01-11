@@ -19,8 +19,8 @@
         <Label Content="      Welcome" HorizontalAlignment="Right" Margin="0,0,92,18" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold"/>
         <Label Content="Pemesanan" HorizontalAlignment="Left" Margin="88,0,0,134" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold"/>
         <Label Content="Riwayat Pemesanan" Margin="273,0,55,131" Grid.Row="1" VerticalAlignment="Bottom" FontWeight="Bold" RenderTransformOrigin="0.389,0.554"/>
-        <Label x:Name="Nama" Content="" HorizontalAlignment="Right" Margin="0,0,95,360" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold" Grid.RowSpan="2" Width="82"/>
         <Button x:Name="Logout" Content="Logout" HorizontalAlignment="Left" Margin="61,20,0,0" VerticalAlignment="Top" Click="OnClickLogout"/>
+        <Label x:Name="Nama" Content="      Welcome" HorizontalAlignment="Right" Margin="0,0,99,362" VerticalAlignment="Bottom" FontSize="14" FontWeight="Bold" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>

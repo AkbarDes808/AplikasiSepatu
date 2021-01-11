@@ -9,7 +9,7 @@
     <Grid>
         <Image Margin="192,364,151,0" Stretch="Fill" Source="/Assets/Sosmed.JPG" Height="48" VerticalAlignment="Top"/>
         <Image Margin="144,19,113,0" Stretch="Fill" Source="/Assets/signin.JPG" Height="89" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="151,159,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="33"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Margin="151,159,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="33"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="150,132,0,0" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="153,232,0,0" VerticalAlignment="Top" Width="178" Height="31" RenderTransformOrigin="0.5,0.5" Password="12345678">
             <PasswordBox.RenderTransform>
